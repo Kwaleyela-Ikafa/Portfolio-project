@@ -3,7 +3,7 @@ body { max-width: 375px; }
 /* Headline text */
 
 .primary-text {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -13,7 +13,7 @@ body { max-width: 375px; }
 }
 
 .supporting-text {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -22,7 +22,7 @@ body { max-width: 375px; }
 }
 
 .description {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -34,7 +34,7 @@ body { max-width: 375px; }
 
 .navbar {
   display: flex;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -42,7 +42,7 @@ body { max-width: 375px; }
   background: #3c3a39;
   width: 100%;
   align-items: center;
-  justify-content:space-between;
+  justify-content: space-between;
   padding: 24px;
 }
 
@@ -75,5 +75,4 @@ body { max-width: 375px; }
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
 }
