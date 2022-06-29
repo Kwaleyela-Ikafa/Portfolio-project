@@ -2,7 +2,6 @@ body { max-width: 375px; }
 
 /* Headline text */
 
-
 .primary-text {
   font-family: 'Crete Round';
   font-style: normal;
@@ -28,14 +27,12 @@ body { max-width: 375px; }
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
 }
 
 /* Navbar */
 
-
 .navbar {
-
   display: flex;
   font-family: Roboto;
   font-style: normal;
@@ -43,7 +40,6 @@ body { max-width: 375px; }
   font-size: 18px;
   line-height: 24px;
   background: #3c3a39;
-
   width: 100%;
   align-items: center;
   justify-content:space-between;
@@ -51,11 +47,9 @@ body { max-width: 375px; }
 }
 
 .navbar a {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
-
-
 
 /* Headline */
 
@@ -70,11 +64,9 @@ body { max-width: 375px; }
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: 50%;
-
   position: absolute;
   width: 375px;
   height: 590px;
-
 }
 
 /* Social media */
