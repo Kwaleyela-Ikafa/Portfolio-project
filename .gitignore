@@ -13,8 +13,4 @@ node_modules
 # Ignore Mac system files
 .DS_stor
 
-# Ignore test.md file
-test.md
 
-# Ignore png files
-.png
