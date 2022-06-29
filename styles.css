@@ -1,34 +1,34 @@
+body { max-width: 375px; }
+
 /* Headline text */
- body {
-    max-width: 375px;
- }
+
 
 .primary-text {
-    font-family: 'Crete Round';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 56px;
-    line-height: 64px;
-    color: #FF6B00;
-    letter-spacing: 0.37px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  color: #ff6b00;
+  letter-spacing: 0.37px;
 }
 
 .supporting-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    color: #FFF5E1;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
 }
 
 .description {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
 }
 
 /* Navbar */
@@ -36,23 +36,23 @@
 
 .navbar {
 
-    display: flex;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    background: #3C3A39;
+  display: flex;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  background: #3c3a39;
 
-    width: 100%;
-    align-items: center;
-    justify-content:space-between;
-    padding: 24px;
+  width: 100%;
+  align-items: center;
+  justify-content:space-between;
+  padding: 24px;
 }
 
 .navbar a {
-    color: #FFFFFF;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 
@@ -60,28 +60,28 @@
 /* Headline */
 
 .headline {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 120px 24px;
-    gap: 12px;
-    background: #1C1A19;
-    background-image: url(./Illustration-header.png);
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 12px;
+  background: #1c1a19;
+  background-image: url(./Illustration-header.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 50%;
 
-    position: absolute;
-    width: 375px;
-    height: 590px;
+  position: absolute;
+  width: 375px;
+  height: 590px;
 
 }
 
 /* Social media */
 
 .social-media {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
 }
