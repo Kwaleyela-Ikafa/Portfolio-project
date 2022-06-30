@@ -1,0 +1,81 @@
+body { width: 375px; }
+
+/* Headline text */
+
+.primary-text {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  color: #ff6b00;
+  letter-spacing: 0.37px;
+}
+
+.supporting-text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+}
+
+.description {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  background: #3c3a39;
+  width: inherit;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar nav {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Headline */
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #1c1a19;
+  padding: 120px 24px;
+  gap: 12px;
+  width: initial;
+  height: 590px;
+  background-image: url(./Illustration.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+/* Social media */
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
