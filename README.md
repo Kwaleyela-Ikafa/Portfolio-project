@@ -1,17 +1,24 @@
 # Portfolio-project
 
-A mobile portfolio page
+A mobile portfolio page showcasing my projects and skills
 
 ## Built With
 
--HTML & CSS
+- HTML & CSS
 
+## Getting Started
+
+To get a local copy up and running follow these simple example steps:
+
+- git clone https://github.com/Kwaleyela-Ikafa/Portfolio-project.git
+
+- cd Portfolio-project
 ## Author
 
 👤 **Kwaleyela**
 
-- GitHub: [@githubhandle](https://github.com/Kwaleyela-Ikafa)
-- Twitter: [@twitterhandle](https://twitter.com/mvrck383)
+- GitHub: [@Kwaleyela-ikafa](https://github.com/Kwaleyela-Ikafa)
+- Twitter: [@mvrck383](https://twitter.com/mvrck383)
 - LinkedIn: [LinkedIn](https://zm.linkedin.com/in/kwaleyela-musilizo-ikafa-abaa1a20b?trk=people-guest_people_search-card)
 
 ## 🤝 Contributing
