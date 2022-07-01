@@ -367,3 +367,53 @@ background: url(image_processing20200716-21735-f07s4k.png);
   margin-top: 19px;
   margin-left: -16px;
 }
+
+/* about section */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 24px;
+  position: absolute;
+  width: inherit;
+  height: 1901px;
+  left: 0px;
+  top: 3400px;
+  background: #1C1A19;
+}
+
+.about h1 {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #FF6B00;
+}
+
+.about .description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F4F5F7;
+}
+
+.about button {
+  border: none;
+  background: #FF6B00;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  padding: 12px;
+  height: 48px;
+}
