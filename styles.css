@@ -93,8 +93,7 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: auto;
-  border: 2px solid red;
-  height: 100vh;
+  height: initial;
 }
 
 .title {
@@ -129,8 +128,7 @@ body {
   align-items: center;
   padding: 0px;
   gap: 24px;
-  width: initial;
-  border: 1px solid gold; 
+  width: initial; 
 }
 
  /* first card */
@@ -147,8 +145,7 @@ body {
 .featured-img {
   width: 327px;
   height: 237px;
-
-background: url(image_processing20200716-21735-f07s4k.png);
+  background: url(image_processing20200716-21735-f07s4k.png);
 }
 
 .title-post {
@@ -247,8 +244,6 @@ background: url(image_processing20200716-21735-f07s4k.png);
   padding: 0px 24px;
   gap: 24px;
   width: -moz-available;
-  /*height: 2436px;*/
-  border: 1px solid blue;
   margin: 0;
 }
 
@@ -271,7 +266,7 @@ background: url(image_processing20200716-21735-f07s4k.png);
 }
 
 .right-block2 h2 {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -357,12 +352,9 @@ background: url(image_processing20200716-21735-f07s4k.png);
 .button-container {
   display: flex;
   justify-content: center;
- /* position: absolute; */
   width: inherit;
   height: 48px;
- /* left: 24px;*/
   background: #ff6b00;
-  /*bottom: 122px;*/
   text-align: center;
   margin-top: 19px;
   margin-left: -16px;
@@ -378,10 +370,12 @@ background: url(image_processing20200716-21735-f07s4k.png);
   gap: 24px;
   position: absolute;
   width: inherit;
-  height: 1901px;
   left: 0px;
   top: 3400px;
-  background: #1C1A19;
+  background: #1c1a19;
+  background-image: url(./images/Frame.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
 }
 
 .about h1 {
@@ -391,7 +385,7 @@ background: url(image_processing20200716-21735-f07s4k.png);
   font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.37px;
-  color: #FF6B00;
+  color: #ff6b00;
 }
 
 .about .description {
@@ -400,12 +394,12 @@ background: url(image_processing20200716-21735-f07s4k.png);
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #F4F5F7;
+  color: #f4f5f7;
 }
 
 .about button {
   border: none;
-  background: #FF6B00;
+  background: #ff6b00;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
