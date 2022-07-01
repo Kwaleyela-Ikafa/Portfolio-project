@@ -235,4 +235,133 @@ background: url(image_processing20200716-21735-f07s4k.png);
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
+  margin: 0;
+  border: none;
+}
+
+/* second frame */
+
+.second-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 24px;
+  gap: 24px;
+  width: -moz-available;
+  /*height: 2436px;*/
+  border: 1px solid blue;
+  margin: 0;
+}
+
+.card-works1 {
+  position: inherit;
+  width: 327px;
+  height: 386px;
+  background-image: url(./images/Mask\ Group1.png);
+  background-repeat: no-repeat;
+}
+
+.right-block2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px 16px;
+  gap: 12px;
+  width: 327px;
+  height: 248px;
+}
+
+.right-block2 h2 {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+  margin: auto;
+}
+
+.right-block2 p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.block2-tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.block2-tags ul {
+  list-style-type: none;
+}
+
+.block2-tags li {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.block2-tag1 {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  width: 56px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.24);
+
+}
+
+.block2-tag2 {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  width: 95px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.block2-tag3 {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  width: 61px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.action {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  border: none;
+  background: #ff6b00;
+  height: 48px;
+  left: 0px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.button-container {
+  position: absolute;
+  width: inherit;
+  height: 48px;
+  left: 24px;
+  background: #ff6b00;
+  bottom: 122px;
+  text-align: center;
 }
