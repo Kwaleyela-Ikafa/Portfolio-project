@@ -638,6 +638,7 @@ input {
   width: inherit;
   background: #dfe1e6;
 }
+
 * button:hover {
   background-color: #fa832d;
   cursor: pointer;
