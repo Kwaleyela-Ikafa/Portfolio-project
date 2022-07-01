@@ -3,7 +3,9 @@ body {
   margin: 0;
   overflow: scroll;
 }
+
 /* Headline text */
+
 .primary-text {
   font-family: 'Crete Round', serif;
   font-style: normal;
@@ -98,7 +100,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 120px 0px;
+  padding: 120px 1px;
   position: absolute;
   width: 375px;
 }
@@ -124,15 +126,16 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  width: initial; 
+  width: initial;
 }
+
  /* first card */
 
 .featured {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px 24px;
+  padding: 1px 24px;
   gap: 24px;
   flex: none;
 }
@@ -156,7 +159,7 @@ body {
 }
 
 .feature-supporting-text {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -169,14 +172,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
 }
 
 .tags {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
   gap: 12px;
 }
 
@@ -189,7 +190,7 @@ body {
 }
 
 .tags li {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -221,12 +222,11 @@ body {
   padding: 12px;
   background: #ff6b00;
   color: #fff;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 17px;
   line-height: 24px;
-  margin: 0;
   border: none;
 }
 
@@ -239,7 +239,6 @@ body {
   padding: 0px 24px;
   gap: 24px;
   width: -moz-available;
-  margin: 0;
 }
 
 .card-works1 {
@@ -271,7 +270,7 @@ body {
 }
 
 .right-block2 p {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -292,7 +291,7 @@ body {
 }
 
 .block2-tags li {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -307,7 +306,6 @@ body {
   width: 56px;
   height: 40px;
   background: rgba(255, 255, 255, 0.24);
-
 }
 
 .block2-tag2 {
@@ -329,13 +327,13 @@ body {
 }
 
 .action {
- position: absolute;
+  position: absolute;
   text-align: center;
   width: inherit;
   border: none;
   background: #ff6b00;
   height: 48px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -384,9 +382,9 @@ body {
 }
 
 .about .description {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
@@ -395,9 +393,9 @@ body {
 .about button {
   border: none;
   background: #ff6b00;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 17px;
   display: flex;
   text-align: center;
@@ -425,8 +423,7 @@ body {
   width: initial;
   top: 4184px;
   background: #1c1a19;
-  margin: 0px;
-  left: 0;
+  left: 1px;
 }
 
 .languages {
@@ -452,7 +449,7 @@ body {
 .head1 {
   font-family: 'InaiMathi';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 32px;
   line-height: 44px;
   display: flex;
@@ -465,17 +462,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 12px;
+  padding: 1px 12px;
   gap: 8px;
   width: 186px;
   height: 216px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 22px;
   line-height: 43px;
-  display: flex;
-  align-items: center;
   text-align: center;
   color: #fff;
 }
@@ -493,7 +488,7 @@ body {
 .head2 {
   width: 227px;
   height: 24px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -509,17 +504,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 12px;
+  padding: 1px 12px;
   gap: 8px;
   width: 186px;
   height: 216px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 22px;
   line-height: 43px;
-  display: flex;
-  align-items: center;
   text-align: center;
   color: #fff;
   position: absolute;
@@ -531,7 +524,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 28px 0px;
+  padding: 28px 1px;
   gap: 12px;
   width: 169px;
   height: 40px;
@@ -542,24 +535,22 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 10px;
+  padding: 1px 10px;
   width: 138px;
   height: 272px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 22px;
   line-height: 43px;
-  display: flex;
-  align-items: center;
   text-align: center;
   color: #fff;
 }
 
 .head3 {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 32px;
   line-height: 44px;
   display: flex;
@@ -567,7 +558,7 @@ body {
   color: #fff;
 }
 
-.contact-form{
+.contact-form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -575,20 +566,18 @@ body {
   gap: 58px;
   position: absolute;
   width: 375px;
-  left: 0px;
   top: 5213px;
 }
 
 .contact-form-text {
-width: 327px;
-height: 216px;
-font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 44px;
-text-align: center;
-color: #172b4d;
+  height: 216px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
 }
 
 .text-form {
@@ -596,8 +585,8 @@ color: #172b4d;
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  padding: 40px 0px;
-  width: 327px;
+  padding: 1px 1px;
+  width: inherit;
 }
 
 textarea {
@@ -613,7 +602,7 @@ textarea::placeholder {
   bottom: 12px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 15px;
   line-height: 24px;
   color: #3c3a39;
@@ -634,18 +623,18 @@ input {
   border: none;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #fff;
 }
 
-footer {
+.footer {
   padding: inherit;
 }
 
 .contact-form hr {
-  width: 370px;
+  width: inherit;
   background: #dfe1e6;
 }
