@@ -224,7 +224,7 @@ body {
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   border: none;
@@ -262,7 +262,7 @@ body {
 .right-block2 h2 {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 32px;
   line-height: 44px;
   color: #fff;
@@ -272,7 +272,7 @@ body {
 .right-block2 p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
@@ -384,7 +384,7 @@ body {
 .about .description {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
@@ -395,7 +395,7 @@ body {
   background: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 17px;
   display: flex;
   text-align: center;
@@ -423,7 +423,7 @@ body {
   width: initial;
   top: 4184px;
   background: #1c1a19;
-  left: 1px;
+  left: 0;
 }
 
 .languages {
@@ -449,7 +449,7 @@ body {
 .head1 {
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   display: flex;
@@ -468,7 +468,7 @@ body {
   height: 216px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 22px;
   line-height: 43px;
   text-align: center;
@@ -510,7 +510,7 @@ body {
   height: 216px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 22px;
   line-height: 43px;
   text-align: center;
@@ -540,7 +540,7 @@ body {
   height: 272px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 22px;
   line-height: 43px;
   text-align: center;
@@ -550,7 +550,7 @@ body {
 .head3 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   display: flex;
@@ -573,7 +573,7 @@ body {
   height: 216px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   text-align: center;
@@ -583,7 +583,6 @@ body {
 .text-form {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 24px;
   padding: 1px 1px;
   width: inherit;
@@ -602,7 +601,7 @@ textarea::placeholder {
   bottom: 12px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   color: #3c3a39;
@@ -623,7 +622,7 @@ input {
   border: none;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -632,9 +631,22 @@ input {
 
 .footer {
   padding: inherit;
+  text-align: center;
 }
 
 .contact-form hr {
   width: inherit;
   background: #dfe1e6;
+}
+* button:hover {
+  background-color: #fa832d;
+  cursor: pointer;
+}
+
+form {
+  justify-content: flex-start;
+}
+
+.btn {
+  text-align: center;
 }
