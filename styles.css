@@ -640,7 +640,9 @@ input {
 }
 
 * button:hover {
-  background-color: #fa832d;
+  border: 1px solid #f55800;
+  background: #fff5E1;
+  color: #f55800;
   cursor: pointer;
 }
 

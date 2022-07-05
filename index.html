@@ -256,14 +256,14 @@
                     I'm always interested in hearing about new projects,
                     so if you'd like to chat please get in touch.
                 </p>
-                <form class="text-form">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email Address">
-                    <textarea cols="30" rows="10">Enter text here</textarea>
+                <form class="text-form"  action="https://formspree.io/f/xbjwvddv" method="POST">
+                    <input type="text" name="name" placeholder="Full Name" maxlength="30" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <textarea cols="30" rows="10" name="message" maxlength="500">Enter text here</textarea>
                     <div class="btn"><button type="submit" class="contact-form-button">Get in touch</button></div>
                     <hr>
                     <div class="footer">
-                        <img src="./images/SocialMedia.png" alt="">
+                        <img src="./images/SocialMedia.png" alt="social media icons">
                     </div>
                 </form>
             </div>
