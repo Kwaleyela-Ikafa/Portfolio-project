@@ -1,5 +1,4 @@
 body {
-  width: 375px;
   margin: 0;
   overflow: scroll;
 }
@@ -72,18 +71,47 @@ body {
   padding: 120px 24px;
   gap: 12px;
   width: initial;
-  height: 470px;
   background-image: url(./Illustration.png);
   background-position: right bottom;
   background-repeat: no-repeat;
   margin: 0;
 }
 
+@media screen and (min-width: 800px) {
+  .headline {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/Illustration-header.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 32%;
+}
+
+  .social-media {
+    position: absolute;
+    left: 2.5%;
+    top: 40%;
+    float: left;
+    flex-direction: column;
+}
+
+.headline-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  float: right;
+  left: 143px;
+  position: relative;
+  width: 566px;
+  gap: 24px;
+}
+
+}
+
 /* Social media */
 
 .social-media {
   display: flex;
-  flex-direction: row;
   align-items: center;
   margin: 0;
 }
