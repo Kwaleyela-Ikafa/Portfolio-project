@@ -68,6 +68,8 @@
                         <button type="submit" class="button">See Project</button>
                     </div>
                 </div>
+        </header>
+
                 <div class="second-frame">
                     <div class="card-works1">
                         <div class="right-block2">
@@ -202,19 +204,21 @@
                 </div>
                                 <!--About Me Section-->
                 <div class="about">
-                    <h1>About me</h1>
-                    <p class="description">
-                        Hello I'm a software developer! I can help
-                        you build a product , feature or website 
-                        Look through some of my work and experience! 
-                        If you like what you see and have a project you need coded,
-                        don't hestiate to contact me.
-                    </p>
-                    <button type="submit">Get My Resume</button>
+                    <div class="about-info">
+                        <h1>About me</h1>
+                        <p class="description">
+                            Hello I'm a software developer! I can help
+                            you build a product , feature or website 
+                            Look through some of my work and experience! 
+                            If you like what you see and have a project you need coded,
+                            don't hestiate to contact me.
+                        </p>
+                        <button type="submit">Get My Resume</button>
+                    </div>
                 </div>
             </div>
             <div class="skills">
-                <hr class="about-hr">
+               <div class="hr-div"><hr class="about-hr"></div> 
                 <div class="languages">
                    <div class="box">
                     <img src="./images/Rectangle55.png" alt="">
@@ -255,11 +259,13 @@
                 </div>
             </div>
             <div class="contact-form">
-                <p class="contact-form-text">
-                    I'm always interested in hearing about new projects,
-                    so if you'd like to chat please get in touch.
-                </p>
-                <form class="text-form"  action="https://formspree.io/f/xbjwvddv" method="POST">
+                <div class="contact-form-text">
+                    <p>
+                        I'm always interested in hearing about new projects,
+                        so if you'd like to chat please get in touch.
+                    </p>
+                </div>
+                <form class="text-form" action="https://formspree.io/f/xbjwvddv" method="POST">
                     <input type="text" name="name" placeholder="Full Name" maxlength="30" required>
                     <input type="email" name="email" placeholder="Email Address" required>
                     <textarea cols="30" rows="10" name="message" maxlength="500" placeholder="Enter text here"></textarea>
@@ -270,8 +276,6 @@
                     </div>
                 </form>
             </div>
-
-        </header>
 
     </div>
 
