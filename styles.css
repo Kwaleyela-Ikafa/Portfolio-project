@@ -144,6 +144,10 @@ body {
   background: url(image_processing20200716-21735-f07s4k.png);
 }
 
+.feature-img1 {
+  display: none;
+}
+
 .title-post {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
@@ -841,10 +845,9 @@ form {
 .featured {
   flex-direction: row;
   align-items: flex-start;
-  padding: 1px 24px;
   gap: 24px;
   position: relative;
-  left: 118px;
+  left: 38px;
   padding: 23px;
 }
 
@@ -859,5 +862,17 @@ form {
 .title-hr {
   width: 794px;
   border: 1px solid #212121;
+}
+
+.feature-supporting-text {
+  width: 448px;
+}
+
+.feature-img1 {
+  display: block;
+}
+
+.feature-img {
+  display: none;
 }
 }
