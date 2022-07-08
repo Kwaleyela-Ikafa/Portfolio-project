@@ -64,6 +64,7 @@ body {
 .desktop-nav {
   display: none;
 }
+
 /* Headline */
 
 .headline {
@@ -79,7 +80,6 @@ body {
   background-repeat: no-repeat;
   margin: 0;
 }
-
 
 /* Social media */
 
@@ -102,7 +102,6 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 120px 1px;
-  /* position: absolute; */
   width: 100%;
 }
 
@@ -126,7 +125,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* gap: 24px; */
   width: 100%;
 }
 
@@ -242,7 +240,6 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 1px 24px;
-  /* gap: 24px; */
 }
 
 .card-works1 {
@@ -432,7 +429,6 @@ body {
 .languages {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   padding: 8px 12px;
   gap: 12px;
 }
@@ -463,10 +459,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* padding: 1px 12px; */
   gap: 8px;
   width: 186px;
-  /* height: 216px; */
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -501,7 +495,6 @@ body {
 .frameworks {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   padding: 8px 12px;
   gap: 12px;
   width: 225.46px;
@@ -513,7 +506,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* padding: 1px 12px; */
   gap: 8px;
   width: 186px;
   height: 216px;
@@ -538,7 +530,6 @@ body {
 .skills-list {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   padding: 8px 12px;
   gap: 12px;
 }
@@ -580,7 +571,6 @@ body {
 }
 
 .contact-form-text {
-  /* height: 216px; */
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -679,7 +669,7 @@ form {
   height: 330px;
 }
 
-.lastname-input{
+.lastname-input {
   display: none;
 }
 
@@ -695,172 +685,170 @@ form {
     background-position: right;
     background-repeat: no-repeat;
     background-size: 32%;
-}
+  }
 
   .social-media {
     position: absolute;
     left: 2.5%;
     float: left;
     flex-direction: column;
-}
+  }
 
-.headline-text {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  float: right;
-  left: 143px;
-  position: relative;
-  width: 566px;
-  gap: 24px;
-}
+  .headline-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    float: right;
+    left: 143px;
+    position: relative;
+    width: 566px;
+    gap: 24px;
+  }
 
-.about {
-  background-image: url(./images/Frame2.png);
-  background-position: right;
-  background-repeat: no-repeat;
-}
+  .about {
+    background-image: url(./images/Frame2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+  }
 
-.about-info {
-  width: 566px;
-}
+  .about-info {
+    width: 566px;
+  }
 
-.about-hr {
-  width: 1156px;
-}
+  .about-hr {
+    width: 1156px;
+  }
 
-.contact-form-text {
-  float: left;
-  position: absolute;
-  width: 455px;
-  gap: 24px;
-}
+  .contact-form-text {
+    float: left;
+    position: absolute;
+    width: 455px;
+    gap: 24px;
+  }
 
-.form-contents{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 24px;
-  width: 684px;
-  height: 330px;
-  left: 40%;
-}
-
-
-.btn {
-  text-align: left;
-}
-
-.skills {
-  display: flex;
-  flex-direction: row;
-}
-
-.skills-list ul {
-  align-items: flex-start;
-  text-align: left;
-}
-
-.hr-div {
-  position: absolute;
-  top: -50px;
-  width: 100%;
-}
-
-.languages {
-  position: relative;
-  left: 141px;
-}
-
-.languages ul {
-  align-items: flex-start;
-  text-align: left;
-}
-
-.frameworks {
-  position: relative;
-  left: 20%;
-}
-
-.frameworks ul {
-  align-items: flex-start; 
-  text-align: left;
-}
+  .form-contents{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 684px;
+    height: 330px;
+    left: 40%;
+  }
 
 
-.skills-list {
-  position: relative;
-  left: 479px;
-}
+  .btn {
+    text-align: left;
+  }
 
-.footer-content {
-  position: relative;
-  /* top: 4489px; */
-  width: 100%;
-}
+  .skills {
+    display: flex;
+    flex-direction: row;
+  }
 
-.contact-form {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 130px 0px;
-  gap: 24px;
-  position: relative;
-  width: 1163px;
-  left: 135px;
-  /* top: 3875px; */
-}
+  .skills-list ul {
+    align-items: flex-start;
+    text-align: left;
+  }
 
-.lastname-input {
-  display: block;
-  position: absolute;
-  left: 354px;
-  width: 330px;
-}
+  .hr-div {
+    position: absolute;
+    top: -50px;
+    width: 100%;
+  }
 
-.firstname-input {
-  display: block;
-  width: 330px;
-}
+  .languages {
+    position: relative;
+    left: 141px;
+  }
 
-.fullname-input {
-  display: none;
-}
+  .languages ul {
+    align-items: flex-start;
+    text-align: left;
+  }
 
-.second-frame {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1px 24px;
-  gap: 24px;
-} 
+  .frameworks {
+    position: relative;
+    left: 20%;
+  }
 
-.frame {
-  width: 100%;
-  flex-wrap: wrap;
-  flex-direction: row;
-  left: 118px;
-  position: relative;
-}
+  .frameworks ul {
+    align-items: flex-start; 
+    text-align: left;
+  }
 
-.featured {
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 24px;
-  position: relative;
-  left: 38px;
-  padding: 23px;
-}
 
-.works-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  gap: 24px;
-}
+  .skills-list {
+    position: relative;
+    left: 479px;
+  }
+
+  .footer-content {
+    position: relative;
+    width: 100%;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 130px 0px;
+    gap: 24px;
+    position: relative;
+    width: 1163px;
+    left: 135px;
+  }
+
+  .lastname-input {
+    display: block;
+    position: absolute;
+    left: 354px;
+    width: 330px;
+  }
+
+  .firstname-input {
+    display: block;
+    width: 330px;
+  }
+
+  .fullname-input {
+    display: none;
+  }
+
+  .second-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px 24px;
+    gap: 24px;
+  } 
+
+  .frame {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    left: 118px;
+    position: relative;
+  }
+
+  .featured {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    left: 38px;
+    padding: 23px;
+  }
+
+  .works-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+  }
 
   .title-hr {
     width: 794px;
