@@ -61,6 +61,9 @@ body {
   padding: 20px;
 }
 
+.desktop-nav {
+  display: none;
+}
 /* Headline */
 
 .headline {
@@ -875,4 +878,19 @@ form {
 .feature-img {
   display: none;
 }
+
+.hamburger {
+  display: none;
+}
+
+.desktop-nav {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.navbar nav {
+  justify-content: space-around;
+}
+
 }
