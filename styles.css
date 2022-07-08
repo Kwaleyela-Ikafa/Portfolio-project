@@ -100,7 +100,7 @@ body {
   align-items: center;
   padding: 120px 1px;
   /* position: absolute; */
-  width: 375px;
+  width: 100%;
 }
 
 .title-h1 {
@@ -121,10 +121,10 @@ body {
 
 .frame {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
-  gap: 24px;
-  width: initial;
+  /* gap: 24px; */
+  width: 100%;
 }
 
 /* first card */
@@ -235,8 +235,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 1px 24px;
-  gap: 24px;
-  width: -moz-available;
+  /* gap: 24px; */
 }
 
 .card-works1 {
@@ -822,4 +821,20 @@ form {
 .fullname-input {
   display: none;
 }
+
+.second-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1px 24px;
+  gap: 24px;
+} 
+
+.frame {
+
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
 }
