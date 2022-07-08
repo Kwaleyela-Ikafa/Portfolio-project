@@ -752,6 +752,11 @@ form {
   flex-direction: row;
 }
 
+.skills-list ul {
+  align-items: flex-start;
+  text-align: left;
+}
+
 .hr-div {
   position: absolute;
   top: -50px;
@@ -760,12 +765,24 @@ form {
 
 .languages {
   position: relative;
+  left: 141px;
+}
+
+.languages ul {
+  align-items: flex-start;
+  text-align: left;
 }
 
 .frameworks {
   position: relative;
   left: 20%;
 }
+
+.frameworks ul {
+  align-items: flex-start; 
+  text-align: left;
+}
+
 
 .skills-list {
   position: relative;
