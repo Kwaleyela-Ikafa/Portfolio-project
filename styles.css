@@ -518,7 +518,6 @@ body {
   color: #fff;
 }
 
-
 .box3 {
   display: flex;
   flex-direction: row;
@@ -726,18 +725,16 @@ form {
     gap: 24px;
   }
 
-  .form-contents{
+  .form-contents {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
     gap: 24px;
     width: 684px;
     height: 330px;
     left: 40%;
   }
-
 
   .btn {
     text-align: left;
@@ -779,7 +776,6 @@ form {
     text-align: left;
   }
 
-
   .skills-list {
     position: relative;
     left: 479px;
@@ -794,7 +790,7 @@ form {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 130px 0px;
+    padding: 130px 1px;
     gap: 24px;
     position: relative;
     width: 1163px;
@@ -823,7 +819,7 @@ form {
     align-items: center;
     padding: 1px 24px;
     gap: 24px;
-  } 
+  }
 
   .frame {
     width: 100%;
@@ -846,7 +842,6 @@ form {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
     gap: 24px;
   }
 
