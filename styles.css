@@ -831,10 +831,11 @@ form {
 } 
 
 .frame {
-
   width: 100%;
   flex-wrap: wrap;
   flex-direction: row;
+  left: 118px;
+  position: relative;
 }
 
 .featured {
@@ -842,6 +843,9 @@ form {
   align-items: flex-start;
   padding: 1px 24px;
   gap: 24px;
+  position: relative;
+  left: 118px;
+  padding: 23px;
 }
 
 .works-header {
