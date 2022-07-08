@@ -862,35 +862,34 @@ form {
   gap: 24px;
 }
 
-.title-hr {
-  width: 794px;
-  border: 1px solid #212121;
-}
+  .title-hr {
+    width: 794px;
+    border: 1px solid #212121;
+  }
 
-.feature-supporting-text {
-  width: 448px;
-}
+  .feature-supporting-text {
+    width: 448px;
+  }
 
-.feature-img1 {
-  display: block;
-}
+  .feature-img1 {
+    display: block;
+  }
 
-.feature-img {
-  display: none;
-}
+  .feature-img {
+    display: none;
+  }
 
-.hamburger {
-  display: none;
-}
+  .hamburger {
+    display: none;
+  }
 
-.desktop-nav {
-  display: flex;
-  list-style-type: none;
-  gap: 20px;
-}
+  .desktop-nav {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+  }
 
-.navbar nav {
-  justify-content: space-around;
-}
-
+  .navbar nav {
+    justify-content: space-around;
+  }
 }
