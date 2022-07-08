@@ -121,7 +121,7 @@ body {
 
 .frame {
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   align-items: center;
   /* gap: 24px; */
   width: 100%;
@@ -837,4 +837,23 @@ form {
   flex-direction: row;
 }
 
+.featured {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1px 24px;
+  gap: 24px;
+}
+
+.works-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+}
+
+.title-hr {
+  width: 794px;
+  border: 1px solid #212121;
+}
 }
