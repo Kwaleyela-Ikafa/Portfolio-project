@@ -242,6 +242,10 @@ body {
   padding: 1px 24px;
 }
 
+.second-frame:hover {
+  transform: scale(1.1);
+}
+
 .card-works1 {
   position: inherit;
   width: 327px;
@@ -726,6 +730,10 @@ form {
     gap: 24px;
   }
 
+  .contact-form-text:hover {
+    transform: translate(15px, 1px);
+  }
+
   .form-contents {
     position: relative;
     display: flex;
@@ -875,5 +883,22 @@ form {
 
   .navbar nav {
     justify-content: space-around;
+  }
+
+  .description {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 }
