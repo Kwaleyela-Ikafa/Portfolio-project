@@ -242,6 +242,10 @@ body {
   padding: 1px 24px;
 }
 
+.second-frame:hover {
+  transform: scale(1.1);
+}
+
 .card-works1 {
   position: inherit;
   width: 327px;
