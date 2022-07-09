@@ -730,6 +730,11 @@ form {
     gap: 24px;
   }
 
+  .contact-form-text:hover {
+    transform: translate(15px, 1px);
+  }
+
+
   .form-contents {
     position: relative;
     display: flex;
