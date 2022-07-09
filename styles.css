@@ -721,6 +721,7 @@ form {
   .contact-form-text {
     float: left;
     position: absolute;
+    text-align: left;
     width: 455px;
     gap: 24px;
   }
@@ -874,9 +875,5 @@ form {
 
   .navbar nav {
     justify-content: space-around;
-  }
-
-  .contact-form-text {
-    text-align: left;
   }
 }
