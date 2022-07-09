@@ -102,7 +102,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 120px 1px;
-  width: 100%;
+  overflow: clip;
 }
 
 .title-h1 {
@@ -874,5 +874,9 @@ form {
 
   .navbar nav {
     justify-content: space-around;
+  }
+
+  .contact-form-text {
+    text-align: left;
   }
 }
