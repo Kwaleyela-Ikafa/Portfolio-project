@@ -120,7 +120,7 @@ body {
   display: flex;
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 18px;
   line-height: 24px;
   width: 100%;
@@ -176,7 +176,7 @@ body {
 .title-h1 {
   font-family: "Crete Round", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
