@@ -65,6 +65,7 @@ body {
   display: none;
 }
 
+
 /* Headline */
 
 .headline {
@@ -354,7 +355,7 @@ body {
   height: 48px;
   background: #ff6b00;
   text-align: center;
-  margin-top: 19px;
+  margin-top: 42px;
   margin-left: -16px;
 }
 
