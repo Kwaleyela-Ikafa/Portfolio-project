@@ -3,21 +3,51 @@ body {
   overflow: scroll;
 }
 
+/* Hamburger CSS */
+
+.ham-container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 4px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
 /* Dropdown menu CSS */
 
 .dropdown {
-  position: relative;
   display: inline-block;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  left: -315px;
+  left: 0px;
+  right: 0px;
   background: #3c3a39;
   padding: 14px 16px;
-  width: 375px;
-  height: 628px;
+  height: 600px;
   overflow: auto;
   box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
 }
@@ -25,13 +55,16 @@ body {
 .dropdown-content a {
   display: flex;
   flex-direction: column;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   text-decoration: none;
   color: #fff5e1;
+  border-bottom: 2px solid;
+  border-bottom-color: rgba(255, 255, 255, 0.15);
+  padding: 15px;
 }
 
 .show {
@@ -389,7 +422,7 @@ body {
   height: 48px;
   background: #ff6b00;
   text-align: center;
-  margin-top: 19px;
+  margin-top: 42px;
   margin-left: -16px;
 }
 
