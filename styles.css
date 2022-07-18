@@ -43,13 +43,13 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  left: 0px;
-  right: 0px;
+  left: 0;
+  right: 0;
   background: #3c3a39;
   padding: 14px 16px;
   height: 600px;
   overflow: auto;
-  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
 }
 
 .dropdown-content a {
@@ -57,7 +57,7 @@ body {
   flex-direction: column;
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 32px;
   line-height: 44px;
   text-decoration: none;

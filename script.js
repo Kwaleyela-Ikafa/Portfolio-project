@@ -1,11 +1,11 @@
 const hamburger = document.querySelector('.hamburger');
 
-hamburger.addEventListener('click', function () {
+hamburger.addEventListener('click', () => {
   document.getElementById('myDropdown').classList.toggle('show');
 });
 
 const HamBurger = document.querySelector('.ham-container');
 
-HamBurger.addEventListener('click', function () {
+HamBurger.addEventListener('click', () => {
   document.getElementById('myHamburger').classList.toggle('change');
 });
