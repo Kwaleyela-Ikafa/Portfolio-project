@@ -1,5 +1,5 @@
 const hamburger = document.querySelector('.hamburger');
-const HamBurger = document.querySelector('.ham-container');
+// const HamBurger = document.querySelector('.ham-container');
 
 hamburger.addEventListener('click', () => {
   document.getElementById('myDropdown').classList.toggle('show');
@@ -7,7 +7,6 @@ hamburger.addEventListener('click', () => {
 });
 
 document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
-    document.getElementById('myDropdown').classList.remove('show');
-    document.getElementById('myHamburger').classList.remove('change');
-  })
-);
+  document.getElementById('myDropdown').classList.remove('show');
+  document.getElementById('myHamburger').classList.remove('change');
+}));
