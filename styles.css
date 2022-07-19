@@ -3,12 +3,80 @@ body {
   overflow: scroll;
 }
 
+/* Hamburger CSS */
+
+.ham-container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 4px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* Dropdown menu CSS */
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: #3c3a39;
+  padding: 14px 16px;
+  height: 600px;
+  overflow: auto;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+}
+
+.dropdown-content a {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-decoration: none;
+  color: #fff5e1;
+  border-bottom: 2px solid;
+  border-bottom-color: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+}
+
+.show {
+  display: block;
+}
+
 /* Headline text */
 
 .primary-text {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 56px;
   line-height: 64px;
   color: #ff6b00;
@@ -17,9 +85,9 @@ body {
 }
 
 .supporting-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   color: #fff5e1;
@@ -27,9 +95,9 @@ body {
 }
 
 .description {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
@@ -50,7 +118,7 @@ body {
 
 .navbar nav {
   display: flex;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -106,7 +174,7 @@ body {
 }
 
 .title-h1 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -150,7 +218,7 @@ body {
 }
 
 .title-post {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -162,7 +230,7 @@ body {
 }
 
 .feature-supporting-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -193,7 +261,7 @@ body {
 }
 
 .tags li {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -225,7 +293,7 @@ body {
   padding: 12px;
   background: #ff6b00;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -265,7 +333,7 @@ body {
 }
 
 .right-block2 h2 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -275,7 +343,7 @@ body {
 }
 
 .right-block2 p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -296,7 +364,7 @@ body {
 }
 
 .block2-tags li {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -338,7 +406,7 @@ body {
   border: none;
   background: #ff6b00;
   height: 48px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -354,7 +422,7 @@ body {
   height: 48px;
   background: #ff6b00;
   text-align: center;
-  margin-top: 19px;
+  margin-top: 42px;
   margin-left: -16px;
 }
 
@@ -377,7 +445,7 @@ body {
 }
 
 .about h1 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -387,7 +455,7 @@ body {
 }
 
 .about .description {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -398,7 +466,7 @@ body {
 .about button {
   border: none;
   background: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -448,7 +516,7 @@ body {
 }
 
 .head1 {
-  font-family: 'InaiMathi', sans-serif;
+  font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -465,7 +533,7 @@ body {
   align-items: center;
   gap: 8px;
   width: 186px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -485,7 +553,7 @@ body {
 .head2 {
   width: 227px;
   height: 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -513,7 +581,7 @@ body {
   gap: 8px;
   width: 186px;
   height: 216px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -543,7 +611,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding-left: 30px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -553,7 +621,7 @@ body {
 }
 
 .head3 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -574,7 +642,7 @@ body {
 }
 
 .contact-form-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -602,7 +670,7 @@ textarea::placeholder {
   right: 12px;
   top: 12px;
   bottom: 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -623,7 +691,7 @@ input {
   height: 48px;
   background: #ff6b00;
   border: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
