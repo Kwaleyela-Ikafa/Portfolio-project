@@ -308,7 +308,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 1px 24px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .second-frame:hover {
@@ -362,6 +362,36 @@ body {
   height: 386px;
   background-image: url(./images/Mask\ Group1.png);
   background-repeat: no-repeat;
+}
+
+.right-block1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px 16px;
+  gap: 12px;
+  width: 300px;
+  height: 248px;
+}
+
+.right-block1 h2 {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  margin: auto;
+}
+
+.right-block1 p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin: 0;
 }
 
 .right-block2 {
@@ -466,6 +496,10 @@ body {
   text-align: center;
   margin-top: 42px;
   margin-left: -16px;
+}
+
+#action {
+  display: none;
 }
 
 /* about section */
@@ -1191,6 +1225,14 @@ form {
 
   /* Card works section2 */
 
+  .card-works1 {
+    position: inherit;
+    width: 327px;
+    height: 386px;
+    background-image: url(./images/DeskHov.png);
+    background-repeat: no-repeat;
+  }
+
   .card-works2 {
     position: inherit;
     width: 327px;
@@ -1223,36 +1265,6 @@ form {
     background-repeat: no-repeat;
   }
 
-  .card-works1:hover {
-    background-image: url(./images/DeskHov.png);
-    background-repeat: no-repeat;
-  }
-
-  .card-works2:hover {
-    background-image: url(./images/DeskHov.png);
-    background-repeat: no-repeat;
-  }
-
-  .card-works3:hover {
-    background-image: url(./images/DeskHov.png);
-    background-repeat: no-repeat;
-  }
-
-  .card-works4:hover {
-    background-image: url(./images/DeskHov.png);
-    background-repeat: no-repeat;
-  }
-
-  .card-works5:hover {
-    background-image: url(./images/DeskHov.png);
-    background-repeat: no-repeat;
-  }
-
-  .card-works6:hover {
-    background-image: url(./images/DeskHov.png);
-    background-repeat: no-repeat;
-  }
-
   .right-block2 {
     display: flex;
     flex-direction: column;
@@ -1265,8 +1277,26 @@ form {
     left: calc(50% - 369px / 2);
   }
 
-  .right-block2:hover {
+  .right-block1 {
     display: none;
+  }
+
+  #action {
+    display: block;
+    position: relative;
+    text-align: center;
+    width: inherit;
+    border: none;
+    background: #ff6b00;
+    height: 48px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #fff;
+    top: 339px;
   }
 
   .button-container {
