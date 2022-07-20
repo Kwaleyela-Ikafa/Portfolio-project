@@ -820,10 +820,10 @@ form {
 }
 
 .modal-h2 {
-display: none;
+  display: none;
 }
 
-.modal-h22{
+.modal-h22 {
   font-family: "Crete Round";
   font-style: normal;
   font-weight: 400;
@@ -1155,6 +1155,200 @@ display: none;
       margin-left: 0%;
       width: 100%;
     }
+  }
+
+  /* Modal CSS */
+
+  .modal {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    overflow: auto;
+  }
+
+  /* Modal Content */
+  .modal-content {
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    background-color: #fff;
+    position: absolute;
+    width: 1156px;
+    height: 600px;
+    left: 100px;
+    top: 15px;
+  }
+
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {
+      top: -300px;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      opacity: 1;
+    }
+  }
+
+  @keyframes animatetop {
+    from {
+      top: -300px;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      opacity: 1;
+    }
+  }
+
+  /* The Close Button */
+  .close {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 35px;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: rgb(236, 227, 227);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal-header {
+    display: flex;
+    flex-direction: row;
+    padding-left: 14px;
+    justify-content: space-between;
+    height: 130px;
+  }
+
+  .modal-h2 {
+    display: block;
+    font-family: "Crete Round";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .modal-p {
+    width: inherit;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+    padding-left: 20px;
+  }
+
+  .modal-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 12px;
+    background: #f55800;
+    position: absolute;
+    width: 134px;
+    height: 48px;
+    left: 708px;
+    top: calc(50% - 48px / 2 + 264.5px);
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  .modal-button2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 12px;
+    position: absolute;
+    width: 159px;
+    height: 48px;
+    left: 849px;
+    top: calc(50% - 48px / 2 + 264.5px);
+    background: #f55800;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  .modal-tags {
+    position: absolute;
+    top: 60px;
+  }
+
+  .modal-tags ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+  }
+
+  .tag1 {
+    box-sizing: border-box;
+    border: 1px solid #979493;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    width: 59px;
+    height: 40px;
+  }
+
+  .tag2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    width: 99px;
+    height: 40px;
+    border: 1px solid #979493;
+  }
+  .tag3 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    width: 120px;
+    height: 40px;
+    border: 1px solid #979493;
+  }
+
+  .modal-body {
+    padding: 2px 16px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .modal-h22{
+    display: none;
   }
 
 }
