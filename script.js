@@ -16,13 +16,15 @@ let modalInformation  = {
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
   imageSrc: src="./images/SnapshootPortfolio.png",
   button1: 'See Live <img src="./images/Icons/IconExport.png">',
-  button2: 'See Source <img src="./images/Icons/IconGitHub.png">'
+  button2: 'See Source <img src="./images/Icons/IconGitHub.png">',
+  li: 'html',
+  li2: 'Bootstrap',
+  li3: 'Ruby on rails'
 }
 
 let div1 = document.createElement('div');
 div1.id = 'myModal';
 div1.className = 'modal';
-// append section to the document
 document.body.appendChild(div1);
 
 let div = document.createElement('div')
@@ -45,27 +47,51 @@ span.innerHTML = "&times;";
 div2.appendChild(span);
 
 let div3 = document.createElement('div');
-div3.className = 'modal-body';
-div.appendChild(div3);
+div3.className = 'modal-tags';
+div2.appendChild(div3);
+
+let ul = document.createElement('ul');
+ul.className = 'ul-tags';
+div3.appendChild(ul);
+
+let li = document.createElement('li');
+li.className = 'tag1'
+li.innerHTML = modalInformation.li
+ul.appendChild(li);
+
+let li2 = document.createElement('li');
+li2.className = 'tag2'
+li2.innerHTML = modalInformation.li2
+ul.appendChild(li2);
+
+let li3 = document.createElement('li');
+li3.className = 'tag3'
+li3.innerHTML = modalInformation.li3
+ul.appendChild(li3);
+
+let div4 = document.createElement('div');
+div4.className = 'modal-body';
+div.appendChild(div4);
 
 let img = document.createElement('img');
+img.className = 'modal-image'
 img.src = modalInformation.imageSrc;
-div3.appendChild(img)
+div4.appendChild(img)
 
 let p = document.createElement('p');
 p.className = 'modal-p';
 p.textContent = modalInformation.description;
-div3.appendChild(p)
+div4.appendChild(p)
 
 let button = document.createElement('button');
 button.className = 'modal-button';
 button.innerHTML = modalInformation.button1;
-div3.appendChild(button)
+div4.appendChild(button)
 
 let button2 = document.createElement('button');
 button2.className = 'modal-button2';
 button2.innerHTML = modalInformation.button2;
-div3.appendChild(button2)
+div4.appendChild(button2)
 
 // Get the modal
 div1 = document.getElementById("myModal");
