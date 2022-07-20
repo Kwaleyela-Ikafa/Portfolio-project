@@ -13,6 +13,7 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 
 let modalInformation  = {
   title: 'Keeping track of hundreds  of components website',
+  title2: 'Multi Post Stories',
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
   imageSrc: src="./images/SnapshootPortfolio.png",
   button1: 'See Live <img src="./images/Icons/IconExport.png">',
@@ -40,6 +41,10 @@ h2.className = 'modal-h2'
 h2.textContent = modalInformation.title;
 div2.appendChild(h2);
 
+let h22 = document.createElement('h2');
+h22.className = 'modal-h22'
+h22.textContent = modalInformation.title2;
+div2.appendChild(h22);
 
 let span = document.createElement('span');
 span.className = 'close';

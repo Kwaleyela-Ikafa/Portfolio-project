@@ -751,9 +751,9 @@ form {
 /* Modal CSS */
 
 .modal {
-  display: none; 
-  background-color: rgba(0,0,0,0.4);
-  width: 100%;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: auto;
   position: fixed;
   left: 0px;
   right: 0px;
@@ -765,28 +765,38 @@ form {
 /* Modal Content */
 .modal-content {
   margin: auto;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
   animation-duration: 0.4s;
-  background-color: #fff; 
+  background-color: #fff;
   position: absolute;
-  width: 1156px;
-  height: 600px;
-  left: 100px;
+  width: 100%;
   top: 15px;
 }
 
 /* Add Animation */
 @-webkit-keyframes animatetop {
-  from {top:-300px; opacity:0} 
-  to {top:0; opacity:1}
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
 }
 
 @keyframes animatetop {
-  from {top:-300px; opacity:0}
-  to {top:0; opacity:1}
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
 }
 
 /* The Close Button */
@@ -805,14 +815,16 @@ form {
 
 .modal-header {
   display: flex;
-  flex-direction: row;
   padding-left: 14px;
-  justify-content: space-between;
-  height: 130px;
+  height: 200px;
 }
 
 .modal-h2 {
-  font-family: 'Crete Round';
+display: none;
+}
+
+.modal-h22{
+  font-family: "Crete Round";
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -822,7 +834,7 @@ form {
 
 .modal-p {
   width: inherit;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -836,20 +848,18 @@ form {
   flex-direction: row;
   align-items: flex-start;
   padding: 12px;
-  gap: 12px;
-  background: #F55800;
-  position: absolute;
+  background: #f55800;
   width: 134px;
   height: 48px;
-  left: 708px;
-  top: calc(50% - 48px/2 + 264.5px);
   border: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   color: #fff;
+  position: relative;
+  left: 20px;
 }
 
 .modal-button2 {
@@ -857,28 +867,27 @@ form {
   flex-direction: row;
   align-items: flex-start;
   padding: 12px;
-  gap: 12px;
-  position: absolute;
+  position: relative;
   width: 159px;
   height: 48px;
-  left: 849px;
-  top: calc(50% - 48px/2 + 264.5px);
-  background: #F55800;
+  background: #f55800;
   border: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   color: #fff;
+  left: 190px;
+  top: -48px;
 }
 
 .modal-tags {
   position: absolute;
-  top: 60px;
+  top: 100px;
 }
 
-.modal-tags ul{
+.modal-tags ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -921,8 +930,9 @@ form {
 }
 
 .modal-body {
-  padding: 2px 16px;
   display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 @media screen and (min-width: 800px) {
@@ -1146,4 +1156,5 @@ form {
       width: 100%;
     }
   }
+
 }
