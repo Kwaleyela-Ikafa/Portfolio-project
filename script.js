@@ -46,7 +46,7 @@ h22.className = 'modal-h22';
 h22.textContent = modalInformation.title2;
 div2.appendChild(h22);
 
-let span = document.createElement('span');
+const span = document.createElement('span');
 span.className = 'close';
 span.innerHTML = '&times;';
 div2.appendChild(span);
