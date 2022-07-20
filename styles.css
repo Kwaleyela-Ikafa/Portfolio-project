@@ -1243,7 +1243,7 @@ form {
   }
 
   .modal-p {
-    width: inherit;
+    width: 424px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
@@ -1347,8 +1347,7 @@ form {
     flex-direction: row;
   }
 
-  .modal-h22{
+  .modal-h22 {
     display: none;
   }
-
 }
