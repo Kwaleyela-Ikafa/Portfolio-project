@@ -21,7 +21,7 @@ const modalInformation = {
   li: 'html',
   li2: 'Bootstrap',
   li3: 'Ruby on rails',
-}
+};
 
 let div1 = document.createElement('div');
 div1.id = 'myModal';
@@ -48,7 +48,7 @@ div2.appendChild(h22);
 
 let span = document.createElement('span');
 span.className = 'close';
-span.innerHTML = "&times;";
+span.innerHTML = '&times;';
 div2.appendChild(span);
 
 const div3 = document.createElement('div');
@@ -101,21 +101,21 @@ div4.appendChild(button2);
 // Get the modal
 div1 = document.getElementById('myModal');
 const btn = document.getElementById('myBtn');
-span = document.getElementsByClassName('close')[0];
+span[0] = document.getElementsByClassName('close');
 
-// When the user clicks the button, open the modal 
+// When the user clicks the button, open the modal
 btn.onclick = () => {
   div1.style.display = 'block';
-}
+};
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = () => {
   div1.style.display = 'none';
-}
+};
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
   if (event.target === div1) {
     div1.style.display = 'none';
   }
-}
+};
