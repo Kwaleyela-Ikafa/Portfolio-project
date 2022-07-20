@@ -308,13 +308,55 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 1px 24px;
+  margin-bottom: 15px;
 }
 
 .second-frame:hover {
   transform: scale(1.1);
 }
 
+/* card works section */
 .card-works1 {
+  position: inherit;
+  width: 327px;
+  height: 386px;
+  background-image: url(./images/Mask\ Group1.png);
+  background-repeat: no-repeat;
+}
+
+.card-works2 {
+  position: inherit;
+  width: 327px;
+  height: 386px;
+  background-image: url(./images/Mask\ Group1.png);
+  background-repeat: no-repeat;
+}
+
+.card-works3 {
+  position: inherit;
+  width: 327px;
+  height: 386px;
+  background-image: url(./images/Mask\ Group1.png);
+  background-repeat: no-repeat;
+}
+
+.card-works4 {
+  position: inherit;
+  width: 327px;
+  height: 386px;
+  background-image: url(./images/Mask\ Group1.png);
+  background-repeat: no-repeat;
+}
+
+.card-works5 {
+  position: inherit;
+  width: 327px;
+  height: 386px;
+  background-image: url(./images/Mask\ Group1.png);
+  background-repeat: no-repeat;
+}
+
+.card-works6 {
   position: inherit;
   width: 327px;
   height: 386px;
@@ -328,7 +370,7 @@ body {
   align-items: flex-start;
   padding: 8px 16px;
   gap: 12px;
-  width: 327px;
+  width: 300px;
   height: 248px;
 }
 
@@ -418,7 +460,7 @@ body {
 .button-container {
   display: flex;
   justify-content: center;
-  width: inherit;
+  width: 327px;
   height: 48px;
   background: #ff6b00;
   text-align: center;
@@ -751,15 +793,16 @@ form {
 /* Modal CSS */
 
 .modal {
-  display: none;
-  background-color: rgba(0, 0, 0, 0.4);
-  width: auto;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  overflow: auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  position: absolute;
+  width: 343px;
+  height: 718px;
+  left: calc(50% - 343px / 2);
+  top: 60px;
 }
 
 /* Modal Content */
@@ -835,7 +878,6 @@ form {
 }
 
 .modal-p {
-  width: inherit;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -861,7 +903,7 @@ form {
   line-height: 24px;
   color: #fff;
   position: relative;
-  left: 20px;
+  left: 10px;
 }
 
 .modal-button2 {
@@ -880,7 +922,7 @@ form {
   font-size: 17px;
   line-height: 24px;
   color: #fff;
-  left: 190px;
+  left: 153px;
   top: -48px;
 }
 
@@ -1147,6 +1189,90 @@ form {
     animation-name: slidein;
   }
 
+  /* Card works section2 */
+
+  .card-works2 {
+    position: inherit;
+    width: 327px;
+    height: 386px;
+    background-image: url(./images/DeskBack.png);
+    background-repeat: no-repeat;
+  }
+
+  .card-works3 {
+    position: inherit;
+    width: 327px;
+    height: 386px;
+    background-image: url(./images/other2.png);
+    background-repeat: no-repeat;
+  }
+
+  .card-works5 {
+    position: inherit;
+    width: 327px;
+    height: 386px;
+    background-image: url(./images/DeskBack.png);
+    background-repeat: no-repeat;
+  }
+
+  .card-works6 {
+    position: inherit;
+    width: 327px;
+    height: 386px;
+    background-image: url(./images/other2.png);
+    background-repeat: no-repeat;
+  }
+
+  .card-works1:hover {
+    background-image: url(./images/DeskHov.png);
+    background-repeat: no-repeat;
+  }
+
+  .card-works2:hover {
+    background-image: url(./images/DeskHov.png);
+    background-repeat: no-repeat;
+  }
+
+  .card-works3:hover {
+    background-image: url(./images/DeskHov.png);
+    background-repeat: no-repeat;
+  }
+
+  .card-works4:hover {
+    background-image: url(./images/DeskHov.png);
+    background-repeat: no-repeat;
+  }
+
+  .card-works5:hover {
+    background-image: url(./images/DeskHov.png);
+    background-repeat: no-repeat;
+  }
+
+  .card-works6:hover {
+    background-image: url(./images/DeskHov.png);
+    background-repeat: no-repeat;
+  }
+
+  .right-block2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 122px 26px;
+    gap: 12px;
+    width: 300px;
+    position: relative;
+    height: 248px;
+    left: calc(50% - 369px / 2);
+  }
+
+  .right-block2:hover {
+    display: none;
+  }
+
+  .button-container {
+    display: none;
+  }
+
   @keyframes slidein {
     from {
       margin-left: 100%;
@@ -1186,7 +1312,7 @@ form {
     width: 1156px;
     height: 600px;
     left: 100px;
-    top: 15px;
+    top: 10px;
   }
 
   /* Add Animation */
