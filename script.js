@@ -60,17 +60,17 @@ ul.className = 'ul-tags';
 div3.appendChild(ul);
 
 let li = document.createElement('li');
-li.className = 'tag1'
+li.className = 'tags1'
 li.innerHTML = modalInformation.li
 ul.appendChild(li);
 
 let li2 = document.createElement('li');
-li2.className = 'tag2'
+li2.className = 'tags2'
 li2.innerHTML = modalInformation.li2
 ul.appendChild(li2);
 
 let li3 = document.createElement('li');
-li3.className = 'tag3'
+li3.className = 'tags3'
 li3.innerHTML = modalInformation.li3
 ul.appendChild(li3);
 

@@ -755,10 +755,10 @@ form {
   background-color: rgba(0, 0, 0, 0.4);
   width: auto;
   position: fixed;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   overflow: auto;
 }
 
@@ -782,6 +782,7 @@ form {
     top: -300px;
     opacity: 0;
   }
+
   to {
     top: 0;
     opacity: 1;
@@ -793,6 +794,7 @@ form {
     top: -300px;
     opacity: 0;
   }
+
   to {
     top: 0;
     opacity: 1;
@@ -824,7 +826,7 @@ form {
 }
 
 .modal-h22 {
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -834,7 +836,7 @@ form {
 
 .modal-p {
   width: inherit;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -892,11 +894,11 @@ form {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
 }
 
-.tag1 {
+.tags1 {
   box-sizing: border-box;
   border: 1px solid #979493;
   display: flex;
@@ -907,7 +909,7 @@ form {
   height: 40px;
 }
 
-.tag2 {
+.tags2 {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -918,7 +920,7 @@ form {
   border: 1px solid #979493;
 }
 
-.tag3 {
+.tags3 {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -1164,10 +1166,10 @@ form {
     background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
     position: fixed;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     overflow: auto;
   }
 
@@ -1193,6 +1195,7 @@ form {
       top: -300px;
       opacity: 0;
     }
+
     to {
       top: 0;
       opacity: 1;
@@ -1204,6 +1207,7 @@ form {
       top: -300px;
       opacity: 0;
     }
+
     to {
       top: 0;
       opacity: 1;
@@ -1234,7 +1238,7 @@ form {
 
   .modal-h2 {
     display: block;
-    font-family: "Crete Round";
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -1244,7 +1248,7 @@ form {
 
   .modal-p {
     width: 424px;
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1309,7 +1313,7 @@ form {
     gap: 8px;
   }
 
-  .tag1 {
+  .tags1 {
     box-sizing: border-box;
     border: 1px solid #979493;
     display: flex;
@@ -1320,7 +1324,7 @@ form {
     height: 40px;
   }
 
-  .tag2 {
+  .tags2 {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -1330,7 +1334,8 @@ form {
     height: 40px;
     border: 1px solid #979493;
   }
-  .tag3 {
+
+  .tags3 {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
