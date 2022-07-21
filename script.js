@@ -104,12 +104,18 @@ div4.appendChild(button2);
 // Get the modal
 div1 = document.getElementById("myModal");
 const btn = document.getElementById("myBtn");
-const btn2 = document.getElementsByClassName("action")[0];
+const btn2 = document.getElementsByClassName("action");
 const btn3 = document.getElementsByClassName("action-btn");
 span[0] = document.getElementsByClassName("close");
 
 // When the user clicks the button, open the modal
 [].forEach.call(btn3, (element) => {
+  element.onclick = () => {
+    div1.style.display = "block";
+  };
+});
+
+[].forEach.call(btn2, (element) => {
   element.onclick = () => {
     div1.style.display = "block";
   };
