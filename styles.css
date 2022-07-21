@@ -806,9 +806,9 @@ form {
   box-sizing: border-box;
   position: fixed;
   width: 100%;
-  left: 0px;
-  top: 0px;
-  bottom: 0px;
+  left: 0;
+  top: 0;
+  bottom: 0;
   background-color: rgba(0, 0, 0, 0.4);
   overflow: auto;
 }
@@ -1147,79 +1147,6 @@ form {
     position: relative;
   }
 
-  .second-frame:hover .card-works1 {
-    cursor: pointer;
-    background: linear-gradient(
-        179.35deg,
-        rgba(38, 38, 38, 0) 100.85%,
-        rgba(38, 38, 38, 0.9) 84%
-      ),
-      url(./images/DeskHov.png);
-  }
-  .second-frame:hover .card-works2 {
-    cursor: pointer;
-    background: linear-gradient(
-        179.35deg,
-        rgba(38, 38, 38, 0) 100.85%,
-        rgba(38, 38, 38, 0.9) 84%
-      ),
-      url(./images/DeskHov.png);
-  }
-  .second-frame:hover .card-works3 {
-    cursor: pointer;
-    background: linear-gradient(
-        179.35deg,
-        rgba(38, 38, 38, 0) 100.85%,
-        rgba(38, 38, 38, 0.9) 84%
-      ),
-      url(./images/DeskHov.png);
-  }
-  .second-frame:hover .card-works4 {
-    cursor: pointer;
-    background: linear-gradient(
-        179.35deg,
-        rgba(38, 38, 38, 0) 100.85%,
-        rgba(38, 38, 38, 0.9) 84%
-      ),
-      url(./images/DeskHov.png);
-  }
-  .second-frame:hover .card-works5 {
-    cursor: pointer;
-    background: linear-gradient(
-        179.35deg,
-        rgba(38, 38, 38, 0) 100.85%,
-        rgba(38, 38, 38, 0.9) 84%
-      ),
-      url(./images/DeskHov.png);
-  }
-  .second-frame:hover .card-works6 {
-    cursor: pointer;
-    background: linear-gradient(
-        179.35deg,
-        rgba(38, 38, 38, 0) 100.85%,
-        rgba(38, 38, 38, 0.9) 84%
-      ),
-      url(./images/DeskHov.png);
-  }
-  .second-frame:hover .card-works1 {
-    cursor: pointer;
-    background: linear-gradient(
-        179.35deg,
-        rgba(38, 38, 38, 0) 100.85%,
-        rgba(38, 38, 38, 0.9) 84%
-      ),
-      url(./images/DeskHov.png);
-  }
-
-  .second-frame:hover .right-block2 {
-    visibility: hidden;
-  }
-
-  .second-frame:hover .action-hidden {
-    visibility: visible;
-    height: 48px;
-  }
-
   .featured {
     flex-direction: row;
     align-items: flex-start;
@@ -1351,6 +1278,85 @@ form {
     left: calc(50% - 369px / 2);
   }
 
+  .second-frame:hover .card-works1 {
+    cursor: pointer;
+    background: linear-gradient(
+      179.35deg,
+      rgba(38, 38, 38, 0) 100.85%,
+      rgba(38, 38, 38, 0.9) 84%
+      ),
+      url(./images/DeskHov.png);
+  }
+
+  .second-frame:hover .card-works2 {
+    cursor: pointer;
+    background: linear-gradient(
+      179.35deg,
+      rgba(38, 38, 38, 0) 100.85%,
+      rgba(38, 38, 38, 0.9) 84%
+      ),
+      url(./images/DeskHov.png);
+  }
+
+  .second-frame:hover .card-works3 {
+    cursor: pointer;
+    background: linear-gradient(
+      179.35deg,
+      rgba(38, 38, 38, 0) 100.85%,
+      rgba(38, 38, 38, 0.9) 84%
+      ),
+      url(./images/DeskHov.png);
+  }
+
+  .second-frame:hover .card-works4 {
+    cursor: pointer;
+    background: linear-gradient(
+      179.35deg,
+      rgba(38, 38, 38, 0) 100.85%,
+      rgba(38, 38, 38, 0.9) 84%
+      ),
+      url(./images/DeskHov.png);
+  }
+
+  .second-frame:hover .card-works5 {
+    cursor: pointer;
+    background: linear-gradient(
+      179.35deg,
+      rgba(38, 38, 38, 0) 100.85%,
+      rgba(38, 38, 38, 0.9) 84%
+      ),
+      url(./images/DeskHov.png);
+  }
+
+  .second-frame:hover .card-works6 {
+    cursor: pointer;
+    background: linear-gradient(
+      179.35deg,
+      rgba(38, 38, 38, 0) 100.85%,
+      rgba(38, 38, 38, 0.9) 84%
+      ),
+      url(./images/DeskHov.png);
+  }
+
+  .second-frame:hover .card-works1 {
+    cursor: pointer;
+    background: linear-gradient(
+      179.35deg,
+      rgba(38, 38, 38, 0) 100.85%,
+      rgba(38, 38, 38, 0.9) 84%
+      ),
+      url(./images/DeskHov.png);
+  }
+
+  .second-frame:hover .right-block2 {
+    visibility: hidden;
+  }
+
+  .second-frame:hover .action-hidden {
+    visibility: visible;
+    height: 48px;
+  }
+
   .action-btn {
     position: absolute;
     text-align: center;
@@ -1401,10 +1407,10 @@ form {
     overflow: auto;
     margin: auto;
     position: fixed;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
   }
 
   /* Modal Content */
@@ -1595,9 +1601,9 @@ form {
     box-sizing: border-box;
     position: fixed;
     width: 100%;
-    left: 0px;
-    top: 0px;
-    bottom: 0px;
+    left: 0;
+    top: 0;
+    bottom: 0;
     background-color: rgba(0, 0, 0, 0.4);
     overflow: auto;
   }
