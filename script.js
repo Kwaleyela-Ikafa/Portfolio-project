@@ -105,7 +105,7 @@ div4.appendChild(button2);
 div1 = document.getElementById("myModal");
 const btn = document.getElementById("myBtn");
 const btn2 = document.getElementsByClassName("action")[0];
-const btn3 = document.getElementsByClassName("action-btn")[0];
+const btn3 = document.getElementsByClassName("action-btn");
 span[0] = document.getElementsByClassName("close");
 
 // When the user clicks the button, open the modal
@@ -115,7 +115,7 @@ span[0] = document.getElementsByClassName("close");
   };
 });
 
-btn2.onclick = () => {
+btn.onclick = () => {
   div1.style.display = "block";
 };
 
