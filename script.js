@@ -146,15 +146,15 @@ form.addEventListener('click', (event) => {
   const str = email.value;
   if(str === str.toLowerCase()) {
     if(regex.test(str)) {
-      emailError.classList.remove('show-error')
+      emailError.classList.remove('show-error');
     }else {
       event.preventDefault();
-      emailError.classList.add('show-error')
-      emailError.textContent = 'You enter invalid email';
+      emailError.classList.add('show-error');
+      emailError.textContent = 'You entered an invalid email';
     }
   }else {
     event.preventDefault();
-    emailError.classList.add('show-error')
+    emailError.classList.add('show-error');
     emailError.innerHTML = 'Email must be typed in lowercase';
   }
   setTimeout(() => {

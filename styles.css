@@ -995,10 +995,16 @@ form {
   border-radius: 10px;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
 }
 
 .show-error{
-  display: block;
+  display: flex;
 }
 
 @media screen and (min-width: 800px) {
