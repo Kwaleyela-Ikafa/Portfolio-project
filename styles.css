@@ -468,10 +468,6 @@ body {
   margin-left: -16px;
 }
 
-/* #action {
-  display: none;
-} */
-
 .action-hidden {
   visibility: hidden;
   width: 0;
@@ -989,6 +985,22 @@ form {
   width: 100%;
 }
 
+.error {
+  display: none;
+  background-color: red;
+  margin-top: 10px;
+  height: 50px;
+  width: 300px;
+  color: white;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.show-error{
+  display: block;
+}
+
 @media screen and (min-width: 800px) {
   .headline {
     display: flex;
@@ -1127,9 +1139,10 @@ form {
     width: 330px;
   }
 
-  .fullname-input {
+  /* .fullname-input {
     display: none;
-  }
+    visibility: hidden;
+  } */
 
   .second-frame {
     display: flex;
