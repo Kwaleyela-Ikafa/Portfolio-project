@@ -2,14 +2,14 @@ const hamburger = document.querySelector('.hamburger');
 // const HamBurger = document.querySelector('.ham-container');
 
 hamburger.addEventListener('click', () => {
-  document.getElementById('myDropdown').classList.toggle("show");
-  document.getElementById('myHamburger').classList.toggle("change");
+  document.getElementById('myDropdown').classList.toggle('show');
+  document.getElementById('myHamburger').classList.toggle('change');
 });
 
 document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
-    document.getElementById('myDropdown').classList.remove("show");
-    document.getElementById('myHamburger').classList.remove("change");
-  }));
+  document.getElementById('myDropdown').classList.remove('show');
+  document.getElementById('myHamburger').classList.remove('change');
+}));
 
 const modalInformation = {
   title: 'Keeping track of hundreds  of components website',
@@ -109,7 +109,7 @@ span[0] = document.getElementsByClassName('close');
 // When the user clicks the button, open the modal
 [].forEach.call(btn3, (element) => {
   element.onclick = () => {
-    div1.style.display = 'block;'
+    div1.style.display = 'block';
   };
 });
 
