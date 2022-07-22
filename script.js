@@ -138,40 +138,26 @@ window.onclick = function (event) {
 // Form javascript
 
 const form  = document.getElementById('signup');
-const email = document.getElementById('#email');
-const emailError = document.getElementById('#emailError');
+const email = document.getElementById('email');
+const emailError = document.getElementById('emailError');
 
-form.addEventListener('submit', (event) => {
-
+form.addEventListener('click', (event) => {
   const regex = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
   const str = email.value;
-  
   if(str === str.toLowerCase()) {
     if(regex.test(str)) {
       emailError.classList.remove('show-error')
     }else {
       event.preventDefault();
-      emailError.innerHTML = 'Email must be typed in lowercase';
       emailError.classList.add('show-error')
+      emailError.textContent = 'You enter invalid email';
     }
   }else {
     event.preventDefault();
-    emailError.textContent = 'Email must be typed in lowercase';
-    emailError.classList.add('.show-error')
+    emailError.classList.add('show-error')
+    emailError.innerHTML = 'Email must be typed in lowercase';
   }
   setTimeout(() => {
     emailError.classList.remove('show-error');
   }, 2500);
-  
-  form.submit();
 });
-
-  // if(str !== str.toLowerCase()) {
-  //   event.preventDefault();
-  //   emailError.textContent = 'Email must be typed in lowercase';
-  //   emailError.classList.add('.show-error')
-  // }else {
-  //   emailError.textContent = '';
-  //   emailError.classList.remove('.show-error')
-  //   form.submit();
-  // }
