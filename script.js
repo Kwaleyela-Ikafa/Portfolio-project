@@ -137,22 +137,22 @@ window.onclick = function (event) {
 
 // Form javascript
 
-const form  = document.getElementById('signup');
+const form = document.getElementById('signup');
 const email = document.getElementById('email');
 const emailError = document.getElementById('emailError');
 
 form.addEventListener('click', (event) => {
   const regex = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
   const str = email.value;
-  if(str === str.toLowerCase()) {
-    if(regex.test(str)) {
+  if (str === str.toLowerCase()) {
+    if (regex.test(str)) {
       emailError.classList.remove('show-error');
-    }else {
+    } else {
       event.preventDefault();
       emailError.classList.add('show-error');
       emailError.textContent = 'You entered an invalid email';
     }
-  }else {
+  } else {
     event.preventDefault();
     emailError.classList.add('show-error');
     emailError.innerHTML = 'Email must be typed in lowercase';
