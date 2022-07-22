@@ -1145,11 +1145,6 @@ form {
     width: 330px;
   }
 
-  /* .fullname-input {
-    display: none;
-    visibility: hidden;
-  } */
-
   .second-frame {
     display: flex;
     flex-direction: column;
