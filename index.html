@@ -348,52 +348,16 @@
           </p>
         </div>
         <div class="form-contents">
-          <form
-            class="text-form"
-            action="https://formspree.io/f/xbjwvddv"
-            method="POST"
-          >
-            <input
-              class="fullname-input"
-              type="text"
-              name="name"
-              placeholder="Full Name"
-              maxlength="30"
-              required
-            />
-            <input
-              class="firstname-input"
-              type="text"
-              name="firstname"
-              placeholder="First Name"
-              maxlength="30"
-              required
-            />
-            <input
-              class="lastname-input"
-              type="text"
-              name="lastname"
-              placeholder="Last Name"
-              maxlength="30"
-              required
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Email Address"
-              required
-            />
-            <textarea
-              cols="30"
-              rows="10"
-              name="message"
-              maxlength="500"
-              placeholder="Enter text here"
-            ></textarea>
+          <form class="text-form" action="https://formspree.io/f/xbjwvddv" method="POST">
+            <input class="fullname-input" type="text" name="name" placeholder="Full Name" maxlength="30" required/>
+            <input id="email" type="email" name="email" placeholder="Email Address" required/>
+            <textarea cols="30" rows="10" name="message" maxlength="500" placeholder="Enter text here">
+            </textarea>
             <div class="btn">
-              <button type="submit" class="contact-form-button">
+              <button type="submit" id="signup" class="contact-form-button">
                 Get in touch
               </button>
+              <div id="emailError" class="error"></div>
             </div>
           </form>
         </div>

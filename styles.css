@@ -468,10 +468,6 @@ body {
   margin-left: -16px;
 }
 
-/* #action {
-  display: none;
-} */
-
 .action-hidden {
   visibility: hidden;
   width: 0;
@@ -989,6 +985,28 @@ form {
   width: 100%;
 }
 
+.error {
+  display: none;
+  background-color: red;
+  margin-top: 10px;
+  height: 50px;
+  width: 300px;
+  color: white;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.show-error {
+  display: flex;
+}
+
 @media screen and (min-width: 800px) {
   .headline {
     display: flex;
@@ -1125,10 +1143,6 @@ form {
   .firstname-input {
     display: block;
     width: 330px;
-  }
-
-  .fullname-input {
-    display: none;
   }
 
   .second-frame {
