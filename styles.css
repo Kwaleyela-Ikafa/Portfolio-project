@@ -1296,7 +1296,7 @@ form {
 
   .second-frame:hover .card-works2 {
     cursor: pointer;
-    background: 
+    background:
       linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0) 100.85%,
@@ -1339,17 +1339,6 @@ form {
   }
 
   .second-frame:hover .card-works6 {
-    cursor: pointer;
-    background:
-       linear-gradient(
-         179.35deg,
-         rgba(38, 38, 38, 0) 100.85%,
-         rgba(38, 38, 38, 0.9) 84%
-       ),
-      url(./images/DeskHov.png);
-  }
-
-  .second-frame:hover .card-works1 {
     cursor: pointer;
     background:
       linear-gradient(
