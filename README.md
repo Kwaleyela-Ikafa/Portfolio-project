@@ -1,6 +1,6 @@
 # Portfolio-project
 
-A mobile portfolio page showcasing my projects and skills
+A portfolio website that showcases my built projects and skills.
 
 ## Built With
 
